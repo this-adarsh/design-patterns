@@ -33,7 +33,7 @@ class logger
 {
     public function logData($action)
     {
-        echo "Logger Message $action";
+        echo "Logger Message :-   $action  <br>";
     }
 }
 
@@ -79,3 +79,4 @@ class userActionsWithDI
 
 $logger = new logger();
 $userActionsWithDI = new userActionsWithDI($logger);
+$userActionsWithDI->deleteUser();
