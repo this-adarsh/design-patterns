@@ -41,15 +41,15 @@ $userActionsWithoutDI = new userActionsWithoutDI();
 $userActionsWithoutDI->createUser();
 
 /**
- * We can call this implementation as above when we call any function of userActionsWithoutDI our message will logged
+ * We can call this implementation as above when we call any function of userActionsWithoutDI our message will logged.
  */
 
 
 /**
- * above code will work fine but it have below drawback's
+ * above code will work fine but it have below drawback's.
  * 1) it causes creation of object multiple times.
- * 2) its causing repetition of code
- * so we can improve it via dependency injection by writing dependency injection logic
+ * 2) its causing repetition of code.
+ * so we can improve it via dependency injection by writing dependency injection logic.
  */
 class userActionsWithDI
 {
