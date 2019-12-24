@@ -24,4 +24,3 @@ class singleTonClass
 }
 
 $obj = singleTonClass::getInstance();
-// $obj->getInstance();
